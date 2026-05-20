@@ -3,7 +3,7 @@
 Personal portfolio built with **HTML5 + CSS3** (Flexbox + Grid) and responsive design.
 
 ## Live URL (GitHub Pages)
-- https://<username>.github.io/portfolio/
+- https://Dizo-bilibwa.github.io/portfolio/
 
 ## Features
 - Semantic HTML5 structure: header, nav, main sections, footer
