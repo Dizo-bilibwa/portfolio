@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmad — Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Ahmad</h1>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>
+            I’m Ahmad, a Computer Science student passionate about building clean, responsive web interfaces.
+            This portfolio showcases semantic HTML structure and modern CSS layout techniques.
+          </p>
+          <ul class="about-details">
+            <li><strong>Location:</strong> Your City</li>
+            <li><strong>Interests:</strong> Web Development, UI/UX, Agile</li>
+            <li><strong>Currently:</strong> Learning HTML5 & CSS3</li>
+          </ul>
+        </div>
+
+        <figure class="about-photo">
+          <img
+            src="https://via.placeholder.com/320x320.png?text=Your+Photo"
+            alt="Portrait of Ahmad"
+            width="320"
+            height="320"
+            loading="lazy"
+          />
+          <figcaption>Developer at work</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">A selection of projects built with HTML, CSS, and JavaScript.</p>
+
+        <div class="projects-grid" role="list">
+          <article class="project-card" role="listitem">
+            <h3>Portfolio Starter</h3>
+            <p>Semantic structure + responsive layout (Flexbox + Grid).</p>
+            <a class="card-link" href="#contact">Contact me</a>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <h3>Responsive Landing</h3>
+            <p>Mobile-first design with breakpoints at 768px and 1024px.</p>
+            <a class="card-link" href="#projects">View more</a>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <h3>Contact Form UI</h3>
+            <p>Accessible form layout using stacked Flexbox columns.</p>
+            <a class="card-link" href="#contact">Go to contact</a>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <h3>CSS Variables Theme</h3>
+            <p>Color system powered by CSS custom properties.</p>
+            <a class="card-link" href="#about">About</a>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <h3>Grid Gallery</h3>
+            <p>Project cards organized with CSS Grid and responsive columns.</p>
+            <a class="card-link" href="#projects">Explore</a>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <h3>Agile Workflow</h3>
+            <p>Using iterative planning to improve features step-by-step.</p>
+            <a class="card-link" href="#contact">Let’s talk</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">Send a message and I’ll get back to you.</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Send Message</button>
+
+          <p class="contact-note">
+            Or email directly:
+            <a href="mailto:yourname@example.com">yourname@example.com</a>
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">© <span id="year"></span> Ahmad. All rights reserved.</p>
+
+      <ul class="social-list" aria-label="Social links">
+        <li><a href="#" aria-label="GitHub">GitHub</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="#" aria-label="Twitter/X">X</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
