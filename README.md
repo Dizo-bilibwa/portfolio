@@ -1,6 +1,6 @@
 # Portfolio
-
-Personal portfolio built with **HTML5 + CSS3** (Flexbox + Grid) and responsive design.
+24BIT009
+Personal portfolio built with **HTML5 + CSS3** with my name AHMADI ZAIDI IBRAHIM BILIBWA
 
 ## Live URL (GitHub Pages)
 - https://Dizo-bilibwa.github.io/portfolio/
